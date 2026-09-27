@@ -633,7 +633,7 @@ override-dependencies = [
   # Remove this line when misaki drops it or a 3.14-capable release fits.
   "spacy-curated-transformers; sys_platform == 'never'",
 ]
-exclude-newer = "14 days"
+# exclude-newer = "14 days"
 # h2: temporary exclude-newer exception for the CVE-2026-71554 (GHSA-6hr6-w5qg-qmwg,
 # request-smuggling) fix in 4.4.1, published 2026-08-03. Remove after 2026-08-17.
 # aiohttp, cryptography: same shape — the advisory fixes are newer than the
@@ -702,7 +702,7 @@ concurrent-log-handler = false
 croniter = false
 cryptography = false
 daytona = false
-ddgs = "2026-08-26T21:52:34Z"
+# ddgs = "2026-08-26T21:52:34Z"
 debugpy = false
 defusedxml = false
 dingtalk-stream = false
@@ -728,7 +728,7 @@ httpx = false
 httpx2 = false
 huggingface_hub = false
 jinja2 = false
-langfuse = "2026-09-09T16:01:26Z"
+# langfuse = "2026-09-09T16:01:26Z"
 lark-oapi = false
 markdown = false
 maturin = false
@@ -739,7 +739,7 @@ microsoft-teams-apps = false
 mistralai = false
 modal = false
 nemo-relay = false
-neutts = "2026-07-22T14:54:23Z"
+# neutts = "2026-07-22T14:54:23Z"
 numpy = false
 openai = false
 opentelemetry-exporter-otlp-proto-http = false
@@ -748,7 +748,7 @@ packaging = false
 parallel-web = false
 pathspec = false
 pillow = false
-piper-tts = "2026-09-04T16:47:32Z"
+# piper-tts = "2026-09-04T16:47:32Z"
 prompt-toolkit = false
 psutil = false
 pvporcupine = false
@@ -771,14 +771,14 @@ sentencepiece = false
 setuptools = false
 setuptools-rust = false
 wheel = false
-sherpa-onnx = "2026-09-10T17:00:04Z"
+# sherpa-onnx = "2026-09-10T17:00:04Z"
 # The core is exact-pinned by sherpa-onnx. Admit all wheels of that release.
-sherpa-onnx-core = "2026-09-10T15:58:47Z"
+# sherpa-onnx-core = "2026-09-10T15:58:47Z"
 slack-bolt = false
 slack-sdk = false
 snowballstemmer = false
 sounddevice = false
-soundfile = "2026-06-06T08:58:48Z"
+# soundfile = "2026-06-06T08:58:48Z"
 starlette = false
 supermemory = false
 tenacity = false
